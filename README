@@ -1,0 +1,22 @@
+This project is only useful in its current form if you embed info the same way as our firmware hex files (which is extrememly unlikely).  I'm putting it out there for people in my group and because it might be a useful reference to someone else (especially the hex file parsing and checksum).  It also shows how you can assign a python script to a context menu entry, use a dialog box, and read/write the clipboad in Windows.
+
+Requires win32 extensions
+
+AppInfo.py - Calculates the checksum of the hex file and compares it to the 
+             embedded checksum.  Also reads the firmware version and PWBA ID.
+             
+To install:
+Put the script where you want it to reside.
+Double-click the AppInfo.py file
+Click 'Yes' for the registry disclaimer.
+
+To move the script to a new location:
+Move the AppInfo.py file to the new location
+Use the install instructions above
+
+To update the script:
+Just copy the new version over the old version, no need to reinstall.
+
+To use:
+Right-click on a hex or sum file and select Smart Remote App Info.
+Click 'Yes' if you want the checksum copied to the clipboard, 'No' if not.
