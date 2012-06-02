@@ -1,4 +1,4 @@
-This project is only useful in its current form if you embed info the same way as our firmware hex files (which is extrememly unlikely).  I'm putting it out there for people in my group and because it might be a useful reference to someone else (especially the hex file parsing and checksum).  It also shows how you can assign a python script to a context menu entry, use a dialog box, and read/write the clipboad in Windows.
+This project is only useful in its current form if you embed info the same way as our firmware hex files (which is extremely unlikely).  I'm putting it out there for people in my group and because it might be a useful reference to someone else (especially the hex file parsing and checksum).  It also shows how you can assign a python script to a context menu entry, use a dialog box, and read/write the clipboard in Windows.
 
 Requires win32 extensions
 
